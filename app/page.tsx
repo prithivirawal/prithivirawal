@@ -15,6 +15,14 @@ export default function Home() {
           A minimal portfolio page — more coming soon.
         </p>
 
+        {/* BUTTON USING <a> */}
+        <a
+          href="/about"
+          className="mt-4 rounded-md bg-black px-5 py-2 text-sm font-medium text-white transition hover:bg-zinc-800 dark:bg-zinc-200 dark:text-black dark:hover:bg-zinc-300"
+        >
+          About Me
+        </a>
+
         <div className="mt-6 h-px w-20 bg-zinc-300 dark:bg-zinc-700"></div>
 
         <p className="text-sm text-zinc-500 dark:text-zinc-400">
